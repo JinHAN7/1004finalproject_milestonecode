@@ -6,7 +6,7 @@ from pyspark.sql.session import SparkSession
 from csv import reader
 spark = SparkSession \
 .builder \
-.appName("task7-sql") \
+.appName("1004project") \
 .config("spark.some.config.option", "some-value") \
 .getOrCreate()
 
